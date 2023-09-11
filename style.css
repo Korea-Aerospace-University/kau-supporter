@@ -1,0 +1,86 @@
+.triangle {
+    width: 0px;
+    height: 0x;
+    border-left: 30px solid #eeeeee;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+
+    float : right;
+    margin-top: 9px;
+  }
+
+.custom_footer {
+    display: flex;
+} 
+
+.playBack-container {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+    height: 20px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+
+.playBack-container span{
+    color: white;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+#playBackRate {
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+} 
+
+.bookmark {
+    position: absolute;
+    display: none;
+    background-color: #4F4A8D;
+    top : 0px;
+    right : 0px;
+    height: 100%;
+    width: 300px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.bookmark .bookmark_close {
+    border: none;
+    background-color: #4F4A8D;
+}
+
+.bookmark .bookmark_remove {
+    border: none;
+    background-color: #4F4A8D;
+    float: right;
+    
+}
+
+.bookmark .mark{
+    color: white;
+    padding: 20px 0;
+    border-bottom: solid 1px white;
+    margin : 7px
+}
+
+.bookmark .mark:hover {
+    text-decoration: underline;
+}
+
+.bookmark .memo{
+    font-size: 25px;
+}
+
+.bookmark .time{
+    color: #dddddd;
+}
+
+.triangle:hover {
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    transition: all 0.5s ease-in;
+}

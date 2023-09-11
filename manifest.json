@@ -1,0 +1,22 @@
+{
+  "name": "KAU-LMS Supporter",
+  "description": "항공대용 lms 플러그인",
+  "version": "1.0.2",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["*://lms.kau.ac.kr/mod/vod/viewer.php?*"],
+      "css" : ["style.css"],
+      "js": ["script.js"],
+      "world": "MAIN",
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "icons": {
+    "16": "/images/icons8-eagle-16.png",
+    "32": "/images/icons8-eagle-32.png",
+    "48": "/images/icons8-eagle-48.png",
+    "128": "/images/icons8-eagle-128.png"
+  }
+}
