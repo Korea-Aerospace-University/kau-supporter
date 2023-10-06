@@ -1,3 +1,3 @@
 # kau-supporter
 
-To be Continue
+For KAU Student
